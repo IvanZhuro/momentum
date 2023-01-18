@@ -7,7 +7,6 @@ export default function Oclock() {
         const date = new Date()
         return setSeconds([date.getHours(),date.getMinutes(),date.getSeconds()]);
     }, 1000)
-    useEffect(()=>{}, [seconds])
     return (
         <div className={style.oclock}><p>{hours}:{minutes}:{seconds < 10 ? `0${seconds}` : seconds}</p></div>
     )
