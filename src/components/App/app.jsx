@@ -1,8 +1,9 @@
+import Oclock from '../Oclock/Oclock'
 import './app.scss'
 
 function App() {
   return (
-    <div className="app">App</div>
+    <Oclock />
   )
 }
 
