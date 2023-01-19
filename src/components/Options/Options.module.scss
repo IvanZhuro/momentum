@@ -1,0 +1,30 @@
+.options {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    right: 0px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    .select_language {
+        height: max-content;
+        width: max-content;
+        ul {
+            display: flex;
+            column-gap: 8px;
+            padding: 10px 10px;
+            li {
+                padding: 3px 7px;
+                list-style: none;
+                border: 1px solid black;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: transparent;
+            }
+            li:hover {
+                background-color: rgba(230, 88, 32, 0.932);
+                color: #fff;
+                border-color: #fff;
+            }
+        }
+    }
+}

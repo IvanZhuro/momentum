@@ -1,10 +1,14 @@
-import Oclock from '../Oclock/Oclock'
+import { Options } from '../Options/Options'
+import { Time } from '../Time/Time'
 import './app.scss'
 
 function App() {
   return (
-    <Oclock />
+    <div>
+      <Options />
+      <Time />
+    </div>
   )
 }
 
-export default App
+export default App  
